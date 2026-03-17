@@ -1,0 +1,95 @@
+/* PAGE GÉNÉRALE */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: rgb(30, 30, 30);
+  line-height: 1.8;
+  font-size: 16px;
+}
+/* TITRES */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+h1 {
+  color: #FF530D;
+  font-size: 26px;
+}
+h2 {
+  color: #333333;
+  font-size: 24px;
+}
+/* PHOTO DE PROFIL */
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+/* LIENS */
+a {
+  color: #FF530D;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #cc4400;
+  text-decoration: none;
+}
+/* BOUTON */
+.btn-orange {
+  background-color: #FF530D;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.btn-orange:hover {
+  background-color: #cc4400;
+  color: white;
+}
+/* LISTE DES RÉSEAUX */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+/* CONTENEUR PRINCIPAL */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+/* CARTES BLANCHES */
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.card-white:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
